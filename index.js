@@ -6,7 +6,7 @@ const tolowerCase = string.toLowerCase()
 const toExisting = tolowerCase.includes(toSearch.toLowerCase());
 // console.log(toExisting);
 
-const myPara = 'This is A Paragraph. I am A boy. I have a dughter.'
+const myPara = 'This is A Paragraph. I am A boy. I have a dughter'
 
 const mainiText = "This is A Paragraph."
 const choteHaterBorno = myPara.toLowerCase().includes(mainiText.toLowerCase());
@@ -26,3 +26,11 @@ if (myPara.indexOf('this') !== -1) {
 } else {
     console.log('We con not find it.');
 }
+
+// startsWith 
+
+console.log(myPara.startsWith('This'));
+
+// EndsWith 
+
+console.log(myPara.endsWith('dughter'));
